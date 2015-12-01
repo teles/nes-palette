@@ -4,18 +4,23 @@ A scss palette based on NES palette.
 
 ## The palette
 
-Nes-palette includes 56 color to represent the original nes-palette.
+Nes-palette includes 56 colors to represent the original nes-palette.
 
 ![Nes palette representation](http://dev.bowdenweb.com/nes/a/i/nes-color-palette.png) 
 
 There are 14 different hues within 4 different shades each one. 
 The hue names are:
 
-````'grey', 'blue', 'dark-blue', 'purple', 'dark-purple', 'red', 'orange', 'dark-orange', 'brown', 'light-green', 'green', 'dark-green', 'blue-grey', 'dark-grey'.````
+````
+'grey', 'blue', 'dark-blue', 'purple', 'dark-purple', 'red', 'orange', 'dark-orange', 'brown', 
+'light-green', 'green', 'dark-green', 'blue-grey', 'dark-grey'.
+````
 
 Any hue has 4 different values representing different luminosities:
 
-````'00', '10', '20', '30' ````
+````
+'00', '10', '20', '30' 
+````
 
 ````00```` represents the darkest value for a hue and ````30```` represents the lightest value.
 
