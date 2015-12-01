@@ -16,7 +16,7 @@ The hue names are:
 'light-green', 'green', 'dark-green', 'blue-grey', 'dark-grey'.
 ````
 
-Any hue has 4 different values representing different luminosities:
+Any hue has 4 different color values representing different luminosities:
 
 ````
 '00', '10', '20', '30' 
