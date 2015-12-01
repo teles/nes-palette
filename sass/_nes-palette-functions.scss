@@ -1,0 +1,18 @@
+/**
+ * Retrieves a color value from the $nes-palette sass map
+ * Got from https://github.com/minusfive/sass-material-colors/blob/master/sass/_sass-material-colors-function.scss
+ *
+ * @function
+ * @param {string} color-name             - quoted, lower-case, dasherized color
+ *                                          name (e.g. 'dark-green', 'orange')
+ * @param {string} [color-variant='500']  - quoted, lowercase color variant (e.g.
+ *                                          '00', '10', '20', '30')
+ */
+@function nes-palette($color-name, $color-variant: '10') {
+	$color: map-get(map-get($nes-palette, $color-name),$color-variant);
+	@if $color {
+		@return $color;
+	} @else {
+		@warn "=> ERROR: COLOR NOT FOUND! <= | Your $color-name, $color-variant combination did not match any of the values in the $nes-palette map.";
+	}
+}
