@@ -3,5 +3,6 @@
 :space_invader: A web palette system based on NES colors.
 
 ## Roadmap
-- [ ] - Make it bower friendly
-- [ ] - Create a demo page
+- [ ] Make it bower friendly
+- [ ] Create a demo page
+- [ ] Write multilingual article about css palettes
